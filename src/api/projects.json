@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio Website",
+    "description": "A responsive personal portfolio showcasing skills, projects, and contact information with smooth navigation and animations.",
+    "technology": ["React", "Tailwind CSS"],
+    "github": "https://github.com/username/portfolio-website",
+    "live": "https://username.github.io/portfolio-website",
+    "image": "https://placehold.co/600x400?text=Hello+World"
+  },
+  {
+    "id": 2,
+    "name": "Currency Converter App",
+    "description": "A web application that converts currencies in real-time using exchange rate APIs, with a clean UI and responsive design.",
+    "technology": ["HTML","CSS", "JS", "API Integration"],
+    "github": "https://github.com/username/currency-converter",
+    "live": "https://currency-converter.vercel.app",
+    "image": "https://placehold.co/600x400?text=Hello+World"
+  }
+]
