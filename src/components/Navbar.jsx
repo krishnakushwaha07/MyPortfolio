@@ -13,7 +13,7 @@ function Navbar() {
       <nav className="flex justify-around p-5 items-center w-[90%] relative">
         <p className="font-semibold">Krishna Kushwaha</p>
         <ul
-          className={`${menu ? "w-screen absolute top-13 flex flex-col gap-4 bg-blue-200 rounded-xs  h-50 justify-center items-center z-50 " : "gap-7 hidden sm:flex"}`}
+          className={`${menu ? "w-screen absolute top-13 flex flex-col gap-4 bg-blue-100 rounded-xs  h-50 justify-center items-center z-50 " : "gap-7 hidden sm:flex"}`}
         >
           <li>
             <NavLink to="/" style={isActiveLink} className="font-semibold">

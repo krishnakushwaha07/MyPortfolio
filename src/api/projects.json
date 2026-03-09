@@ -4,8 +4,8 @@
     "name": "Portfolio Website",
     "description": "A responsive personal portfolio showcasing skills, projects, and contact information with smooth navigation and animations.",
     "technology": ["React", "Tailwind CSS"],
-    "github": "https://github.com/username/portfolio-website",
-    "live": "https://username.github.io/portfolio-website",
+    "github": "https://github.com/krishnakushwaha07/MyPortfolio",
+    "live": "https://krishnakushwaha-portfolio.netlify.app/",
     "image": "https://placehold.co/600x400?text=Hello+World"
   },
   {
@@ -13,8 +13,8 @@
     "name": "Currency Converter App",
     "description": "A web application that converts currencies in real-time using exchange rate APIs, with a clean UI and responsive design.",
     "technology": ["HTML","CSS", "JS", "API Integration"],
-    "github": "https://github.com/username/currency-converter",
-    "live": "https://currency-converter.vercel.app",
+    "github": "https://github.com/krishnakushwaha07/CurrencyConverter",
+    "live": "https://krishnakushwaha07.github.io/CurrencyConverter/",
     "image": "https://placehold.co/600x400?text=Hello+World"
   }
 ]
