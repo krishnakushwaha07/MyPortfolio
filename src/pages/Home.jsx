@@ -1,3 +1,4 @@
+import { Link, NavLink } from "react-router";
 import SocialMedia from "../components/SocialMedia";
 
 function Home() {
@@ -19,11 +20,11 @@ function Home() {
           </p>
           <div className="flex gap-5 mt-7">
             <button className=" px-3 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition cursor-pointer">
-              <a href="/project">View my work</a>
+              <Link to="/project">View my work</Link>
             </button>
 
             <button className="px-3 py-1 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition cursor-pointer">
-              <a href="/resume.pdf">Download CV</a>
+              <a href="/resume.pdf" download={true}>Download CV</a>
             </button>
           </div>
         </div>
