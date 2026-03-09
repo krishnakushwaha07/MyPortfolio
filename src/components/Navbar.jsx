@@ -6,14 +6,14 @@ function Navbar() {
   const [menu, setMenu] = useState(false);
 
   const isActiveLink = ({ isActive }) =>
-    isActive ? { color: "green" } : { color: "black" };
+    isActive ? { color: "blue" } : { color: "black" };
 
   return (
-    <header className="w-screen bg-gray-100 h-12 flex  items-center justify-center">
+    <header className="bg-gray-100 h-12 flex  items-center justify-center">
       <nav className="flex justify-around p-5 items-center w-[90%] relative">
         <p className="font-semibold">Krishna Kushwaha</p>
         <ul
-          className={`${menu ? "w-screen absolute top-9 flex flex-col gap-4 bg-blue-200 rounded-xs  h-50 justify-center items-center z-50 " : "gap-7 hidden sm:flex"}`}
+          className={`${menu ? "w-screen absolute top-13 flex flex-col gap-4 bg-blue-200 rounded-xs  h-50 justify-center items-center z-50 " : "gap-7 hidden sm:flex"}`}
         >
           <li>
             <NavLink to="/" style={isActiveLink} className="font-semibold">
@@ -31,7 +31,7 @@ function Navbar() {
               style={isActiveLink}
               className="font-semibold"
             >
-              Project
+              Projects
             </NavLink>
           </li>
           <li>

@@ -4,11 +4,11 @@ import Footer from "./Footer";
 
 function AppLayout() {
   return (
-    <div className="flex flex-col items-center w-screen h-screen">
+    <>
       <Navbar />
       <Outlet />
       <Footer />
-    </div>
+    </>
   );
 }
 
