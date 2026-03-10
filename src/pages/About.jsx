@@ -29,11 +29,11 @@ function About() {
         <div className="border-l-3 border-blue-500 p-6 ml-1 text-[17px] ">
           <p>
             <span className="font-semibold">Programming languages: </span>C/C++,
-            JavaScrpit
+            JavaScript
           </p>
           <p>
             <span className="font-semibold">Frontend development: </span>HTML,
-            CSS, JavaScrpit, React.js, TailwindCSS
+            CSS, JavaScript, React.js, TailwindCSS
           </p>
           <p>
             <span className="font-semibold">Backend development: </span>Node.js,
