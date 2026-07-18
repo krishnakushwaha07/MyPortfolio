@@ -6,7 +6,7 @@ const educationData = [
     institution: "CSJM University, Kanpur",
     degree: "Bachelor in computer science",
     period: "2024 — 2027",
-    details: ["Graduated with Honors", "Coursework: Computer fundamentals, Data Structures, Algorithms"],
+    details: ["Graduated with Honors", "Coursework: Computer fundamentals, DataBases, Data Structures, Algorithms"],
   },
 ];
 

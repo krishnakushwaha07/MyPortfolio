@@ -41,7 +41,7 @@ export default function ProjectsPage() {
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-16 text-center">
-          <h2 className=" text-blue-400 font-semibold tracking-[0.24em] uppercase mb-4 textlg sm:text-xl md:text-2xl">
+          <h2 className="text-blue-400 font-semibold tracking-[0.20em] uppercase mb-4 text-3xl sm:text-4xl md:text-5xl">
             Featured Projects
           </h2>
           <p className="text-base sm:text-lg text-slate-400 max-w-3xl mx-auto">

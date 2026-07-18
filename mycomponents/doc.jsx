@@ -12,7 +12,7 @@ import { Dock, DockIcon } from "@/components/ui/dock";
 
 const Doc = () => {
   return (
-    <Dock className="fixed bottom-4 left-1/2 z-50 w-full max-w-full sm:max-w-xl -translate-x-1/2 sm:px-0 mx-auto rounded-full bg-slate-950/20 border border-sky-200/10 px-3 py-2 gap-7 shadow-2xl shadow-slate-900/10 backdrop-blur-xl ring-1 ring-sky-200/20 dark:ring-sky-400/20">
+    <Dock className="fixed bottom-4 left-1/2 z-50 w-[90%] max-w-full sm:max-w-xl -translate-x-1/2 sm:px-0 mx-auto rounded-full bg-slate-950/20 border border-sky-200/10 px-3 py-2 gap-7 shadow-2xl shadow-slate-900/10 backdrop-blur-xl ring-1 ring-sky-200/20 dark:ring-sky-400/20">
       <DockIcon>
         <Link
           href="/"

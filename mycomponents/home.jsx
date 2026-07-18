@@ -1,16 +1,16 @@
-import { ArrowRight, Code2, Zap, Mail, ExternalLink } from "lucide-react";
+import { ArrowRight, Code2, Zap, ExternalLink } from "lucide-react";
 import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-slate-950">
       {/* Hero Section */}
-      <section className="pt-16 sm:pt-24 md:pt-32 pb-12 sm:pb-16 md:pb-20 px-4 sm:px-6">
+      <section className="pt-8 sm:pt-18 md:pt-25 pb-12 sm:pb-16 md:pb-20 px-5 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
-            <div className="space-y-6 sm:space-y-8">
-              <p className="text-sm sm:text-base text-blue-400 font-semibold flex items-center gap-2">
-                <Zap size={16} /> Welcome to my portfolio
-              </p>
+          <p className="text-sm sm:text-base text-blue-400 font-semibold flex items-center gap-2 mb-3 pl-5">
+            <Zap size={16} /> Welcome to my portfolio
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 pl-5">
+            <div className="space-y-6 sm:space-y-8 order-2 md:order-1">
               <div className="space-y-3 sm:space-y-4">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Hi, I'm Krishna Kushwaha.
@@ -32,7 +32,7 @@ export default function Home() {
                 <a
                   href="/cv.pdf"
                   download
-                  className="border-2 border-slate-600 text-white hover:bg-slate-800 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition text-sm sm:text-base"
+                  className=" text-center border-2 border-slate-600 text-white hover:bg-slate-800 px-6 sm:px-8 py-2 sm:py-3 rounded-lg font-semibold transition text-sm sm:text-base"
                 >
                   Download CV
                 </a>
@@ -40,21 +40,18 @@ export default function Home() {
             </div>
 
             {/* Hero Image */}
-            <div className="flex justify-center">
-              <div className="relative w-full max-w-sm aspect-square">
-                <div className="absolute inset-0 rounded-3xl bg-linear-to-r from-blue-500 to-cyan-500 opacity-20 blur-3xl"></div>
-                <div className="absolute left-4 top-1/2 h-20 w-1 rounded-full bg-cyan-400/70 -translate-y-1/2"></div>
-                <div className="absolute inset-4 rounded-[2rem] border border-white/10 shadow-[0_35px_120px_-40px_rgba(56,189,248,0.8)]"></div>
-                <div className="relative z-10 h-full rounded-3xl overflow-hidden shadow-[0_25px_80px_-30px_rgba(14,165,233,0.65)] ring-1 ring-white/10">
-                  <Image
-                    src="/profile.jpg"
-                    alt="Krishna Kushwaha"
-                    height={420}
-                    width={420}
-                    className="h-full w-full object-cover"
-                    loading="eager"
-                  />
-                </div>
+
+            <div className="relative w-full max-w-sm aspect-square flex justify-center items-center justify-self-center order-1 md:order-2">
+              <div className="absolute inset-0 rounded-[2rem] bg-linear-to-br from-slate-900/90 via-blue-500/10 to-cyan-400/15 blur-3xl" />
+              <div className="relative flex items-center justify-center w-full h-full p-3">
+                <Image
+                  src="/profile.jpg"
+                  alt="Krishna Kushwaha"
+                  height={400}
+                  width={400}
+                  className="relative h-full w-full max-w-90 max-h-90 object-cover rounded-[2rem] border border-white/10 shadow-[0_30px_80px_-20px_rgba(56,189,248,0.4)]"
+                  loading="eager"
+                />
               </div>
             </div>
           </div>
