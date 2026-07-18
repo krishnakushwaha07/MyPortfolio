@@ -1,5 +1,5 @@
 import { ArrowRight, Code2, Zap, Mail, ExternalLink } from "lucide-react";
-
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-linear-to-br from-slate-950 via-slate-900 to-slate-950">
@@ -8,21 +8,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 items-center">
             <div className="space-y-6 sm:space-y-8">
+              <p className="text-sm sm:text-base text-blue-400 font-semibold flex items-center gap-2">
+                <Zap size={16} /> Welcome to my portfolio
+              </p>
               <div className="space-y-3 sm:space-y-4">
-                <p className="text-sm sm:text-base text-blue-400 font-semibold flex items-center gap-2">
-                  <Zap size={16} /> Welcome to my portfolio
-                </p>
-                <div className="block md:hidden mt-6">
-                  <div className="relative h-64 w-full">
-                    <div className="absolute inset-0 bg-linear-to-r from-blue-500 to-cyan-500 rounded-2xl opacity-20 blur-3xl"></div>
-                    <div className="relative bg-linear-to-br from-slate-800 to-slate-900 rounded-2xl border border-slate-700 h-full flex items-center justify-center">
-                      <Code2
-                        size={60}
-                        className="sm:w-24 sm:h-24 md:w-32 md:h-32 text-slate-700"
-                      />
-                    </div>
-                  </div>
-                </div>
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Hi, I'm Krishna Kushwaha.
                 </h1>
@@ -50,14 +39,22 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Hero Image Placeholder */}
-            <div className="hidden md:block relative h-64 sm:h-80 md:h-96 lg:h-full lg:min-h-96">
-              <div className="absolute inset-0 bg-linear-to-r from-blue-500 to-cyan-500 rounded-2xl opacity-20 blur-3xl"></div>
-              <div className="relative bg-linear-to-br from-slate-800 to-slate-900 rounded-2xl border border-slate-700 h-full flex items-center justify-center">
-                <Code2
-                  size={60}
-                  className="sm:w-24 sm:h-24 md:w-32 md:h-32 text-slate-700"
-                />
+            {/* Hero Image */}
+            <div className="flex justify-center">
+              <div className="relative w-full max-w-sm aspect-square">
+                <div className="absolute inset-0 rounded-3xl bg-linear-to-r from-blue-500 to-cyan-500 opacity-20 blur-3xl"></div>
+                <div className="absolute left-4 top-1/2 h-20 w-1 rounded-full bg-cyan-400/70 -translate-y-1/2"></div>
+                <div className="absolute inset-4 rounded-[2rem] border border-white/10 shadow-[0_35px_120px_-40px_rgba(56,189,248,0.8)]"></div>
+                <div className="relative z-10 h-full rounded-3xl overflow-hidden shadow-[0_25px_80px_-30px_rgba(14,165,233,0.65)] ring-1 ring-white/10">
+                  <Image
+                    src="/profile.jpg"
+                    alt="Krishna Kushwaha"
+                    height={420}
+                    width={420}
+                    className="h-full w-full object-cover"
+                    loading="eager"
+                  />
+                </div>
               </div>
             </div>
           </div>
