@@ -39,7 +39,7 @@ export default function ContactPage() {
             </div>
             <div>
               <p className="text-white font-medium">Email</p>
-              <p className="mt-1 text-sm text-slate-400">example@email.com</p>
+              <p className="mt-1 text-sm text-slate-400">Send me a message</p>
             </div>
           </a>
 

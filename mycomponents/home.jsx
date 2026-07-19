@@ -10,7 +10,7 @@ export default function Home() {
             <Zap size={16} /> Welcome to my portfolio
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 pl-5">
-            <div className="space-y-6 sm:space-y-8 order-2 md:order-1">
+            <div className="space-y-8 sm:space-y-9 order-2 md:order-1">
               <div className="space-y-3 sm:space-y-4">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight">
                   Hi, I'm Krishna Kushwaha.

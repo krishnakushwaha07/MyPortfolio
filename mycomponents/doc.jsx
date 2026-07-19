@@ -34,7 +34,7 @@ const Doc = () => {
               href={href}
               aria-label={label}
               aria-current={isActive ? "page" : undefined}
-              className={`group relative flex h-14 w-14 items-center justify-center rounded-full transition duration-300 ${isActive ? "bg-sky-500/20 text-sky-100 " : "text-sky-100 hover:-translate-y-1 hover:scale-110 hover:bg-sky-500/10"} dark:text-sky-100 dark:hover:bg-sky-500/20`}
+              className={`group relative flex h-12 w-12 items-center justify-center rounded-full transition duration-300 ${isActive ? "bg-sky-500/20 text-sky-100" : "text-sky-100 hover:-translate-y-1 hover:scale-110 hover:bg-sky-500/10"} dark:text-sky-100 dark:hover:bg-sky-500/20`}
             >
               <Icon className="h-7 w-7" />
               <span className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-2 inline-flex rounded-full bg-slate-950/95 px-2.5 py-1 text-xs text-sky-100 opacity-0 transition-opacity duration-200 group-hover:opacity-100">

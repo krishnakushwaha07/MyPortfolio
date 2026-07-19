@@ -17,7 +17,7 @@ export default function EducationPage() {
         <header className="mb-12">
           <div className="flex items-center gap-3 mb-4">
             <BookOpen className="w-10 h-10 text-blue-400" />
-            <h1 className="text-5xl font-extrabold tracking-tight bg-linear-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
+            <h1 className="text-4xl font-extrabold tracking-tight bg-linear-to-r from-blue-400 to-cyan-300 bg-clip-text text-transparent">
               Education
             </h1>
           </div>
