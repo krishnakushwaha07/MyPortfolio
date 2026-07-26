@@ -49,7 +49,7 @@ export default function Home() {
                   alt="Krishna Kushwaha"
                   height={400}
                   width={400}
-                  className="relative h-full w-full max-w-90 max-h-90 object-cover rounded-[2rem] border border-white/10 shadow-[0_30px_80px_-20px_rgba(56,189,248,0.4)]"
+                  className="relative h-[90%] w-[90%] sm:h-full sm:w-full object-cover rounded-full sm:rounded-[2rem] border border-white/10 shadow-[0_30px_80px_-20px_rgba(56,189,248,0.4)]"
                   loading="eager"
                 />
               </div>
