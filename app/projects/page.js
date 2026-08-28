@@ -5,13 +5,13 @@ import { ExternalLink } from "lucide-react";
 const projectsData = [
   {
     id: 1,
-    title: "E-Commerce Platform",
+    title: "YT video chat application",
     description:
-      "A full-stack e-commerce platform with product catalog, shopping cart, and payment integration using Stripe.",
-    techStack: ["Next.js", "React", "Tailwind CSS", "MongoDB", "Stripe"],
-    livePreview: "https://ecommerce-demo.com",
-    githubRepo: "https://github.com/krishnak/ecommerce-platform",
-    image: "/projects/ecommerce.jpg",
+      "AI-powered YouTube Video Chat that lets users ask questions about videos and get context-aware answers using RAG, embeddings, and Google Gemini.",
+    techStack: ["Python","Next.js", "FastAPI", "PostgreSQL", "Langchain", "Gemini"],
+    livePreview: "https://videogpt-frontend.vercel.app",
+    githubRepo: "https://github.com/krishnakushwaha07/videogpt-frontend.git",
+    image: "/ytchat.png",
   },
   {
     id: 2,
